@@ -109,3 +109,5 @@ function rand_puzzle(N)
 end
 
 
+function example(N=4)
+    return search(rand_puzzle(N))
